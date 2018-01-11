@@ -13,6 +13,9 @@
 		5B3F169720070AA00067E0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F169620070AA00067E0D1 /* Assets.xcassets */; };
 		5B3F169A20070AA00067E0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F169820070AA00067E0D1 /* LaunchScreen.storyboard */; };
 		5B3F169D20070AA00067E0D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F169C20070AA00067E0D1 /* main.m */; };
+		5B3F16A620070B740067E0D1 /* UIButton+TitleEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3F16A520070B740067E0D1 /* UIButton+TitleEdgeInsets.m */; };
+		5B3F16A920070E8B0067E0D1 /* icon_help@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F16A720070E8B0067E0D1 /* icon_help@3x.png */; };
+		5B3F16AA20070E8B0067E0D1 /* icon_help@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3F16A820070E8B0067E0D1 /* icon_help@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		5B3F169920070AA00067E0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3F169B20070AA00067E0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3F169C20070AA00067E0D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B3F16A320070B200067E0D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B3F16A420070B740067E0D1 /* UIButton+TitleEdgeInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TitleEdgeInsets.h"; sourceTree = "<group>"; };
+		5B3F16A520070B740067E0D1 /* UIButton+TitleEdgeInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TitleEdgeInsets.m"; sourceTree = "<group>"; };
+		5B3F16A720070E8B0067E0D1 /* icon_help@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_help@3x.png"; sourceTree = "<group>"; };
+		5B3F16A820070E8B0067E0D1 /* icon_help@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_help@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				5B3F168E20070AA00067E0D1 /* AppDelegate.m */,
 				5B3F169020070AA00067E0D1 /* ViewController.h */,
 				5B3F169120070AA00067E0D1 /* ViewController.m */,
+				5B3F16A420070B740067E0D1 /* UIButton+TitleEdgeInsets.h */,
+				5B3F16A520070B740067E0D1 /* UIButton+TitleEdgeInsets.m */,
+				5B3F16A820070E8B0067E0D1 /* icon_help@2x.png */,
+				5B3F16A720070E8B0067E0D1 /* icon_help@3x.png */,
+				5B3F16A320070B200067E0D1 /* README.md */,
 				5B3F169320070AA00067E0D1 /* Main.storyboard */,
 				5B3F169620070AA00067E0D1 /* Assets.xcassets */,
 				5B3F169820070AA00067E0D1 /* LaunchScreen.storyboard */,
@@ -131,7 +144,9 @@
 			files = (
 				5B3F169A20070AA00067E0D1 /* LaunchScreen.storyboard in Resources */,
 				5B3F169720070AA00067E0D1 /* Assets.xcassets in Resources */,
+				5B3F16AA20070E8B0067E0D1 /* icon_help@2x.png in Resources */,
 				5B3F169520070AA00067E0D1 /* Main.storyboard in Resources */,
+				5B3F16A920070E8B0067E0D1 /* icon_help@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +160,7 @@
 				5B3F169220070AA00067E0D1 /* ViewController.m in Sources */,
 				5B3F169D20070AA00067E0D1 /* main.m in Sources */,
 				5B3F168F20070AA00067E0D1 /* AppDelegate.m in Sources */,
+				5B3F16A620070B740067E0D1 /* UIButton+TitleEdgeInsets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
